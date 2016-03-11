@@ -15,34 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Debug\vc140.pdb" />
-    <None Include="Debug\TINF coder.tlog\CL.command.1.tlog" />
-    <None Include="Debug\TINF coder.tlog\CL.read.1.tlog" />
-    <None Include="Debug\TINF coder.tlog\CL.write.1.tlog" />
-    <None Include="Debug\TINF coder.tlog\link.command.1.tlog" />
-    <None Include="Debug\TINF coder.tlog\link.read.1.tlog" />
-    <None Include="Debug\TINF coder.tlog\link.write.1.tlog" />
-    <None Include="Debug\TINF coder.tlog\TINF coder.lastbuildstate" />
-    <None Include="Debug\vc140.idb" />
-    <None Include="Coded\coded_i1" />
-    <None Include="Coded\coded_i2" />
-    <None Include="Coded\coded_i3" />
-    <None Include="Coded\coded_i4" />
-    <None Include="Input\input_i1" />
-    <None Include="Input\input_i2" />
-    <None Include="Input\input_i3" />
-    <None Include="Input\input_i4" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Coder.c">
+    <ClCompile Include="Decoder.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Object Include="Debug\Coder.obj" />
+    <None Include="Debug\vc140.idb" />
+    <None Include="Debug\vc140.pdb" />
+    <None Include="Debug\TINF decoder.tlog\CL.command.1.tlog" />
+    <None Include="Debug\TINF decoder.tlog\CL.read.1.tlog" />
+    <None Include="Debug\TINF decoder.tlog\CL.write.1.tlog" />
+    <None Include="Debug\TINF decoder.tlog\link.command.1.tlog" />
+    <None Include="Debug\TINF decoder.tlog\link.read.1.tlog" />
+    <None Include="Debug\TINF decoder.tlog\link.write.1.tlog" />
+    <None Include="Debug\TINF decoder.tlog\TINF decoder.lastbuildstate" />
+    <None Include="Output\output_i2" />
+    <None Include="Output\output_i3" />
+    <None Include="Output\output_i4" />
+    <None Include="Coded\coded_i1" />
+    <None Include="Coded\coded_i2" />
+    <None Include="Coded\coded_i3" />
+    <None Include="Coded\coded_i4" />
+    <None Include="Output\output_i1" />
   </ItemGroup>
   <ItemGroup>
+    <Object Include="Debug\Decoder.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Debug\TINF decoder.Build.CppClean.log" />
     <Text Include="Debug\TINF decoder.log" />
-    <Text Include="Debug\TINF coder.Build.CppClean.log" />
   </ItemGroup>
 </Project>

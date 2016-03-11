@@ -338,7 +338,7 @@ int main() {
 	}
 
 	//Opening input file
-	err = fopen_s(&ul, "ulazna_i1", "rb"); //argv[1]
+	err = fopen_s(&ul, "Input/input_i1", "rb"); //argv[1]
 	if (err != 0)
 	{
 		printf("Nemoguce otvoriti ulaznu datoteku");
@@ -366,7 +366,7 @@ int main() {
 	coded = LZW(k, symbol_counter, &root);
 
 	//Opening output file
-	err = fopen_s(&iz, "izlazna_i1", "wb+"); //
+	err = fopen_s(&iz, "Coded/coded_i1", "wb+"); //
 	if (err != 0)
 	{
 		printf("Nemoguce otvoriti izlaznu datoteku");
