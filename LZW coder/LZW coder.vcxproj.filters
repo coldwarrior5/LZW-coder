@@ -24,7 +24,6 @@
     <None Include="Debug\TINF coder.tlog\link.write.1.tlog" />
     <None Include="Debug\TINF coder.tlog\TINF coder.lastbuildstate" />
     <None Include="Debug\vc140.idb" />
-    <None Include="Coded\coded_i1" />
     <None Include="Coded\coded_i2" />
     <None Include="Coded\coded_i3" />
     <None Include="Coded\coded_i4" />
@@ -32,6 +31,14 @@
     <None Include="Input\input_i2" />
     <None Include="Input\input_i3" />
     <None Include="Input\input_i4" />
+    <None Include="Coded\coded_i1" />
+    <None Include="Debug\LZW coder.tlog\CL.command.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\CL.read.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\CL.write.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\link.command.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\link.read.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\link.write.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\LZW coder.lastbuildstate" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Coder.c">
@@ -44,5 +51,6 @@
   <ItemGroup>
     <Text Include="Debug\TINF decoder.log" />
     <Text Include="Debug\TINF coder.Build.CppClean.log" />
+    <Text Include="Debug\LZW coder.log" />
   </ItemGroup>
 </Project>

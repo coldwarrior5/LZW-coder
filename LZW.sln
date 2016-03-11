@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LZW coder", "TINF coder\TINF coder.vcxproj", "{979836BA-4046-48FD-BF30-7C5E1774B5A3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LZW coder", "LZW coder\LZW coder.vcxproj", "{979836BA-4046-48FD-BF30-7C5E1774B5A3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TINF decoder", "TINF decoder\TINF decoder.vcxproj", "{91120F96-7436-43C7-BF28-38FDE9B3685B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LZW decoder", "LZW decoder\LZW decoder.vcxproj", "{91120F96-7436-43C7-BF28-38FDE9B3685B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

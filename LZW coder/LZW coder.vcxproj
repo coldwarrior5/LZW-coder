@@ -19,10 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{91120F96-7436-43C7-BF28-38FDE9B3685B}</ProjectGuid>
+    <ProjectGuid>{979836BA-4046-48FD-BF30-7C5E1774B5A3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TINFdecoder</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>LZW coder</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,32 +148,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Decoder.c" />
+    <ClCompile Include="Coder.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Coded\coded_i1" />
     <None Include="Coded\coded_i2" />
     <None Include="Coded\coded_i3" />
     <None Include="Coded\coded_i4" />
-    <None Include="Debug\TINF decoder.tlog\CL.command.1.tlog" />
-    <None Include="Debug\TINF decoder.tlog\CL.read.1.tlog" />
-    <None Include="Debug\TINF decoder.tlog\CL.write.1.tlog" />
-    <None Include="Debug\TINF decoder.tlog\link.command.1.tlog" />
-    <None Include="Debug\TINF decoder.tlog\link.read.1.tlog" />
-    <None Include="Debug\TINF decoder.tlog\link.write.1.tlog" />
-    <None Include="Debug\TINF decoder.tlog\TINF decoder.lastbuildstate" />
+    <None Include="Debug\LZW coder.tlog\CL.command.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\CL.read.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\CL.write.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\link.command.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\link.read.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\link.write.1.tlog" />
+    <None Include="Debug\LZW coder.tlog\LZW coder.lastbuildstate" />
+    <None Include="Debug\TINF coder.tlog\CL.command.1.tlog" />
+    <None Include="Debug\TINF coder.tlog\CL.read.1.tlog" />
+    <None Include="Debug\TINF coder.tlog\CL.write.1.tlog" />
+    <None Include="Debug\TINF coder.tlog\link.command.1.tlog" />
+    <None Include="Debug\TINF coder.tlog\link.read.1.tlog" />
+    <None Include="Debug\TINF coder.tlog\link.write.1.tlog" />
+    <None Include="Debug\TINF coder.tlog\TINF coder.lastbuildstate" />
     <None Include="Debug\vc140.idb" />
     <None Include="Debug\vc140.pdb" />
-    <None Include="Output\output_i1" />
-    <None Include="Output\output_i2" />
-    <None Include="Output\output_i3" />
-    <None Include="Output\output_i4" />
+    <None Include="Input\input_i1" />
+    <None Include="Input\input_i2" />
+    <None Include="Input\input_i3" />
+    <None Include="Input\input_i4" />
   </ItemGroup>
   <ItemGroup>
-    <Object Include="Debug\Decoder.obj" />
+    <Object Include="Debug\Coder.obj" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Debug\TINF decoder.Build.CppClean.log" />
+    <Text Include="Debug\LZW coder.log" />
+    <Text Include="Debug\TINF coder.Build.CppClean.log" />
     <Text Include="Debug\TINF decoder.log" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

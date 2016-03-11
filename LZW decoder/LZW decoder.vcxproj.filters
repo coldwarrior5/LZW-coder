@@ -37,6 +37,13 @@
     <None Include="Coded\coded_i3" />
     <None Include="Coded\coded_i4" />
     <None Include="Output\output_i1" />
+    <None Include="Debug\LZW decoder.tlog\CL.command.1.tlog" />
+    <None Include="Debug\LZW decoder.tlog\CL.read.1.tlog" />
+    <None Include="Debug\LZW decoder.tlog\CL.write.1.tlog" />
+    <None Include="Debug\LZW decoder.tlog\link.command.1.tlog" />
+    <None Include="Debug\LZW decoder.tlog\link.read.1.tlog" />
+    <None Include="Debug\LZW decoder.tlog\link.write.1.tlog" />
+    <None Include="Debug\LZW decoder.tlog\LZW decoder.lastbuildstate" />
   </ItemGroup>
   <ItemGroup>
     <Object Include="Debug\Decoder.obj" />
@@ -44,5 +51,6 @@
   <ItemGroup>
     <Text Include="Debug\TINF decoder.Build.CppClean.log" />
     <Text Include="Debug\TINF decoder.log" />
+    <Text Include="Debug\LZW decoder.log" />
   </ItemGroup>
 </Project>
