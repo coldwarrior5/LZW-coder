@@ -6,7 +6,3 @@ env:
 script:
   - cd "$TEST_DIR"
   - gcc -std=c11 -coverage -O0 *.c -o main
-  - gcov *.c
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
