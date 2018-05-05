@@ -37,7 +37,7 @@ char* LZW(uint16_t *k, int size, char **dict)
 		if (key != nextEntry)
 		{
 			char word[MAX] = "";
-			strcpy_s(word, strlen(dict[key]) + 1, dict[key]);
+			strcpy(word, dict[key]);
 
 			if (nextEntry < MAX-1) 
 			{
