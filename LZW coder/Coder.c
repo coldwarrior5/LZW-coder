@@ -285,12 +285,12 @@ uint16_t* LZW(char *k, int size, trieNode_t **root)
 		char next[2] = "", together[MAX] = "";
 		next[0] = k[i];
 		i++;
-		strcpy_s(together, strlen(word) + 1, word);
-		strcat_s(together, strlen(together) + strlen(next) + 1, next);
+    		strcpy(together, word);
+		strcat(together,  next);	
 
 		if (TrieSearch(*root, together) != NULL)
 		{
-			strcpy_s(word, strlen(together) + 1, together);
+			strcpy(word, together);
 		}
 		else
 		{
@@ -303,9 +303,8 @@ uint16_t* LZW(char *k, int size, trieNode_t **root)
 				TrieAdd(root, together, nextEntry);
 				nextEntry++;
 			}
-			strcpy_s(word, strlen(next) + 1, next);
+			strcpy(word, next);
 		}
-
 	}
 	lenCoded++;
 	coded = realloc(coded, (lenCoded + 1)*sizeof(uint16_t));
@@ -324,9 +323,7 @@ int main() {
 	exit(1);
 	}*/
 	
-	set_constraint_handler_s(ignore_handler_s);
 	FILE *ul, *iz;
-	errno_t err;
 	uint16_t *coded;
 	trieNode_t *root; // ASCII from 0 till 255
 	TrieCreate(&root);
@@ -340,7 +337,7 @@ int main() {
 	}
 
 	//Opening input file
-	err = fopen_s(&ul, "Input/input_i1", "rb"); //argv[1]
+	ul = fopen("Input/input_i1", "rb"); //argv[1]
 	if (err != 0)
 	{
 		printf("Nemoguce otvoriti ulaznu datoteku");
@@ -368,7 +365,7 @@ int main() {
 	coded = LZW(k, symbol_counter, &root);
 
 	//Opening output file
-	err = fopen_s(&iz, "Coded/coded_i1", "wb+"); //
+	iz = fopen("Coded/coded_i1", "wb+"); //
 	if (err != 0)
 	{
 		printf("Nemoguce otvoriti izlaznu datoteku");
