@@ -5,7 +5,7 @@ env:
   
 script:
   - cd "$TEST_DIR"
-  - clang -coverage -O0 *.c -o main
+  - clang -std=c11 -coverage -O0 *.c -o main
   - ./main
   - gcov *.c
 
