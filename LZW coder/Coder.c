@@ -1,3 +1,4 @@
+#define __STDC_WANT_LIB_EXT1__ 1
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -322,7 +323,8 @@ int main() {
 	printf( "usage: %s filename", argv[0] );
 	exit(1);
 	}*/
-
+	
+	set_constraint_handler_s(ignore_handler_s);
 	FILE *ul, *iz;
 	errno_t err;
 	uint16_t *coded;
