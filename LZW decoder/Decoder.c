@@ -131,7 +131,7 @@ int main() {
 	for (nextEntry = 0; nextEntry < ASCII; nextEntry++)
 	{
 		dict[nextEntry] = calloc(2, sizeof(char));
-		strcpy_s(dict[nextEntry], 2*sizeof(char),(char *)&hex);
+		strcpy(dict[nextEntry], (char *)&hex);
 		hex = hex + 1;
 	}
 
