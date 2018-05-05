@@ -1,6 +1,6 @@
 language: c
 compiler: gcc
 env:
-  - TEST_DIR=LZW\\ coder/
-  - TEST_DIR=LZW\\ decoder
+  - TEST_DIR="LZW coder"
+  - TEST_DIR="LZW decoder"
 script: cd $TEST_DIR
