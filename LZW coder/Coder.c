@@ -1,4 +1,3 @@
-#define __STDC_WANT_LIB_EXT1__ 1
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -338,7 +337,7 @@ int main() {
 
 	//Opening input file
 	ul = fopen("Input/input_i1", "rb"); //argv[1]
-	if (err != 0)
+	if (ul != NULL)
 	{
 		printf("Nemoguce otvoriti ulaznu datoteku");
 		exit(2);
@@ -366,7 +365,7 @@ int main() {
 
 	//Opening output file
 	iz = fopen("Coded/coded_i1", "wb+"); //
-	if (err != 0)
+	if (iz != NULL)
 	{
 		printf("Nemoguce otvoriti izlaznu datoteku");
 		exit(2);
